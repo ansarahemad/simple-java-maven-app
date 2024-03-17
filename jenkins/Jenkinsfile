@@ -16,5 +16,9 @@ pipeline {
                 }
             }
         }
+      stage('Deliver')
+       {
+        echo "Finally, we are able to update script...hurry"
+       }
     }
 }
