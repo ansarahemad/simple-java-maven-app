@@ -16,9 +16,8 @@ pipeline {
                 }
             }
         }
-       stage('Newly Added')
-       {
-          states{
+       stage('Newly Added') {
+          steps{
              echo "This is new addition just to test how it behaves"
           }
        }
