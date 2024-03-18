@@ -16,5 +16,11 @@ pipeline {
                 }
             }
         }
+       stage('Newly Added')
+       {
+          states{
+             echo "This is new addition just to test how it behaves"
+          }
+       }
     }
 }
